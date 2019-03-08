@@ -18,11 +18,11 @@
  */
 package org.jpmml.sparkml.xgboost;
 
-import org.jpmml.sparkml.HasOptions;
+import org.jpmml.converter.HasOptions;
 
 public interface HasXGBoostOptions extends HasOptions {
 
-	String OPTION_COMPACT = "compact";
+    String OPTION_COMPACT = "compact";
 
-	String OPTION_NTREE_LIMIT = "ntree_limit";
+    String OPTION_NTREE_LIMIT = "ntree_limit";
 }
